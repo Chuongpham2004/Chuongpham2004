@@ -1,118 +1,183 @@
-<!-- ===================== HEADER ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,50:1f4e79,100:6DB33F&height=220&section=header&text=Ph%E1%BA%A1m%20Ho%C3%A0ng%20Ch%C6%B0%C6%A1ng&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Java%2021%20Backend%20Engineer%20%E2%80%A2%20Microservices%20%26%20CI%2FCD&descAlignY=56&descSize=18&animation=fadeIn" width="100%" alt="header" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/Chuongpham2004">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=0E75B6&center=true&vCenter=true&repeat=true&width=620&height=50&lines=Hi+there%2C+I'm+ChuongPham+%F0%9F%91%8B;Java+21+%2B+Spring+Boot+3.x+Developer;Building+Distributed+Systems+%E2%9A%A1;Virtual+Threads+%7C+Kafka+%7C+Redis;Automating+everything+with+CI%2FCD+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
-</p>
+<img src="assets/hud-banner.svg" width="100%" alt="PHAM HOANG CHUONG — Java 21 Backend Engineer · Microservices & CI/CD" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Chuongpham2004&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="profile views" />
-  <a href="https://github.com/Chuongpham2004?tab=followers"><img src="https://img.shields.io/github/followers/Chuongpham2004?label=Followers&style=for-the-badge&color=6DB33F&logo=github" alt="followers" /></a>
-  <a href="mailto:hoangchuong869@gmail.com"><img src="https://img.shields.io/badge/Email-hoangchuong869%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
-</p>
+<a href="https://github.com/Chuongpham2004"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f14" alt="GitHub" /></a>
+<a href="mailto:hoangchuong869@gmail.com"><img src="https://img.shields.io/badge/Email-6DB33F?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0f14" alt="Email" /></a>
 
----
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=900&color=6DB33F&center=true&vCenter=true&width=640&height=36&lines=%3E+booting+jvm-21+...+virtual+threads+online;%3E+connecting+kafka-cluster+...+OK;%3E+redis+geo-index+...+warmed+up;%3E+ci%2Fcd+pipeline+...+all+checks+passed+%E2%9C%94" alt="boot sequence" />
 
-## 🔭 About Me
+</div>
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" alt="coding" />
-
-Tôi là một **Backend Developer** tập trung vào hệ sinh thái **Java 21** và **Spring Boot 3.x**. Đam mê xây dựng các hệ thống phân tán (*Distributed Systems*) hiệu suất cao, tận dụng sức mạnh của **Virtual Threads** và quy trình tự động hóa **CI/CD**.
-
-- 🛠️ **Chuyên môn:** Microservices Architecture, Event-Driven Design, Database Optimization
-- ⚙️ **CI/CD:** Xây dựng pipeline tự động hóa (Automation Testing & Deployment)
-- 💬 **Hỏi tôi về:** Java 21, Spring Cloud, Kafka, Docker & Kubernetes
-- 📫 **Email:** hoangchuong869@gmail.com
-
-<br clear="right" />
-
-```java
-public record Engineer(String name, String role, List<String> stack, List<String> focus) {
-
-    public static Engineer chuong() {
-        return new Engineer(
-                "Phạm Hoàng Chương",
-                "Java 21 Backend Engineer",
-                List.of("Spring Boot 3", "Spring Cloud", "Kafka", "Redis", "PostgreSQL"),
-                List.of("Microservices", "Event-Driven Design", "Virtual Threads", "CI/CD"));
-    }
-}
+```text
+┌─[ chuongpham2004@dev ]─[ ~/identity ]
+│
+│  $ whoami --verbose
+│  ▸ Pham Hoang Chuong (ChuongPham) — Java 21 Backend Engineer
+│  ▸ Focus: microservices architecture · event-driven design · database optimization
+│  ▸ Runtime: Java 21 Virtual Threads · Spring Boot 3.x · Spring Cloud
+│  ▸ Pipelines: GitHub Actions · Jenkins · Docker · Kubernetes
+│  ▸ Side quest: cross-platform mobile apps with Dart & Flutter
+│
+│  $ mission --current
+│  ▸ Building a real-time ride-hailing & on-demand delivery platform on microservices —
+│    Redis GEO driver matching, Kafka domain events, PostgreSQL as the source of truth.
+│
+│  $ ask-me-about
+│  ▸ Java 21 · Spring Cloud · Kafka · Docker & Kubernetes
+│
+└─[ status: ONLINE ]──────────────────────────────────────────── [ ● ● ● ]
 ```
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
-## 🛠 Tech Stack
+## `⌬` CORE SYSTEMS — TECHNICAL EXPERTISE
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,gradle&theme=dark" alt="backend" /><br/>
-    <img src="https://skillicons.dev/icons?i=kafka,rabbitmq,redis,postgres,mysql,mongodb&theme=dark" alt="data" /><br/>
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,jenkins,linux,git,idea&theme=dark" alt="devops" />
-  </a>
-</p>
+<table>
+<tr><td width="180"><b><code>LANGUAGES</code></b></td><td>
+
+![Java 21](https://img.shields.io/badge/Java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+</td></tr>
+<tr><td><b><code>BACKEND</code></b></td><td>
+
+![Spring Boot 3](https://img.shields.io/badge/Spring%20Boot%203-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
+</td></tr>
+<tr><td><b><code>MOBILE</code></b></td><td>
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+</td></tr>
+<tr><td><b><code>MESSAGING / CACHE</code></b></td><td>
+
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+</td></tr>
+<tr><td><b><code>DATABASES</code></b></td><td>
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+</td></tr>
+<tr><td><b><code>DEVOPS / CI-CD</code></b></td><td>
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+</td></tr>
+<tr><td><b><code>ARCHITECTURE</code></b></td><td>
+
+![Microservices](https://img.shields.io/badge/Microservices-1D4ED8?style=flat-square) ![Event-Driven](https://img.shields.io/badge/Event--Driven%20(EDA)-B45309?style=flat-square) ![Virtual Threads](https://img.shields.io/badge/Virtual%20Threads-047857?style=flat-square) ![Outbox Pattern](https://img.shields.io/badge/Transactional%20Outbox-0E7490?style=flat-square) ![Circuit Breakers](https://img.shields.io/badge/Circuit%20Breakers-BE123C?style=flat-square) ![DB Optimization](https://img.shields.io/badge/Database%20Optimization-334155?style=flat-square)
+</td></tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## `⌬` MISSION LOG — PROJECTS IN FLIGHT
+
+### `[ ACTIVE ]` 🚗 Ride-Hailing & On-Demand Delivery Platform
+`Analysis & design phase` · [Chuongpham2004/Ride-Hailing-Logistics](https://github.com/Chuongpham2004/Ride-Hailing-Logistics)
+
+> A real-time platform connecting **customers** with **drivers** for two services — **RIDE** (passenger trips) and **DELIVERY** (on-demand parcels) — designed as a set of **Spring Boot microservices** from a full IEEE 830 SRS.
+>
+> **Tech:** `Java 21` `Spring Boot 3` `Spring Cloud Gateway` `Kafka` `Redis` `PostgreSQL` `GitHub Actions`
 
 <details>
-<summary><b>📋 Xem chi tiết theo nhóm</b></summary>
-<br/>
+  <summary><strong>🧭 Architecture — 7 deployable services</strong></summary>
+  <br>
 
-| Nhóm | Công nghệ |
-|---|---|
-| 🖥️ **Backend & Frameworks** | ![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot 3](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white) |
-| 🏗️ **Microservices & Messaging** | ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DD0031?style=flat-square&logo=redis&logoColor=white) |
-| 🗄️ **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) |
-| 🚀 **DevOps & CI/CD** | ![Docker](https://img.shields.io/badge/Docker-0DB7ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) |
-
+  - Split into `api-gateway`, `realtime-gateway` (WebSocket), `user-service`, `location-service`, `trip-service`, `pricing-service` and `payment-service` — **one PostgreSQL database per service**.
+  - **Kafka** is the only asynchronous integration channel between services; domain events use **JSON Schema (draft 2020-12)** contracts, published through a **transactional outbox**.
+  - **Redis** holds only derived / short-lived data — driver **GEO index**, latest location with TTL, distributed locks, rate limits and quote cache — and can be rebuilt if lost.
+  - Synchronous calls go through `RestClient` / OpenFeign with **Resilience4j** timeouts, bounded retries and circuit breakers.
 </details>
 
----
+<details>
+  <summary><strong>⚡ Real-time dispatch & pricing</strong></summary>
+  <br>
 
-## 📊 GitHub Stats
+  - Drivers stream telemetry every **3–5 s** over WSS; `location-service` validates it and updates the Redis GEO index.
+  - `trip-service` runs the **matching engine**, driver offers and the trip **state machine**, with optimistic locking and idempotency keys.
+  - `pricing-service` computes quotes and **surge** from supply/demand counters bucketed by **Uber H3** cells.
+  - `payment-service` keeps balances in a **ledger**, never in cache.
+</details>
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Chuongpham2004&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chuongpham2004&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="top langs" />
-</p>
+<details>
+  <summary><strong>🛡️ CI/CD & quality gates</strong></summary>
+  <br>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Chuongpham2004&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
+  - GitHub Actions workflows for **CI**, **delivery**, **PR quality** and **security scanning**.
+  - Protected `main` / `develop` branches with required checks and code-scanning conversations.
+  - Testing strategy: JUnit 5, Mockito, **Testcontainers** (Kafka, Redis, PostgreSQL) and Awaitility for concurrency tests.
+</details>
 
----
+<!--
+### `[ ARCHIVE ]` 🏢 Company Name · *Your Role*
+`Mon YYYY – Mon YYYY` · City, Country
 
-## 🏆 Featured Projects
+> One-line summary of what you did there.
 
-<p align="center">
-  <a href="https://github.com/Chuongpham2004/Ride-Hailing-Logistics">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chuongpham2004&repo=Ride-Hailing-Logistics&theme=tokyonight&hide_border=true" alt="Ride-Hailing-Logistics" />
-  </a>
-</p>
+<details>
+  <summary><strong>📦 Project name</strong> <em>(Mon YYYY – Mon YYYY)</em></summary>
+  <br>
 
-| 🚗 Project | 📝 Mô tả | 🧰 Stack |
-|---|---|---|
-| [**Ride-Hailing-Logistics**](https://github.com/Chuongpham2004/Ride-Hailing-Logistics) | Nền tảng đặt xe & giao hàng theo yêu cầu thời gian thực, kiến trúc microservices, ghép tài xế bằng Redis GEO, event-driven qua Kafka | `Java 21` `Spring Boot` `Kafka` `Redis` `PostgreSQL` |
+  - What you built, with a number if you have one.
+  - **Tech Stack:** `Java` `Spring Boot`
+</details>
+-->
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
-## 🐍 Contribution Snake
+## `⌬` DEPLOYED ARTIFACTS — FEATURED PROJECTS
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chuongpham2004/Chuongpham2004/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chuongpham2004/Chuongpham2004/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/Chuongpham2004/Chuongpham2004/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **[Ride-Hailing-Logistics](https://github.com/Chuongpham2004/Ride-Hailing-Logistics)** | Real-time ride-hailing & on-demand delivery platform — microservices, Redis GEO driver matching, Kafka domain events, H3-based surge pricing and a ledger-backed wallet. | `Java 21` `Spring Boot` `Kafka` `Redis` `PostgreSQL` |
+<!-- | **[next-project](https://github.com/Chuongpham2004/next-project)** | Short description. | `Flutter` `Dart` | -->
 
----
+<!--
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=4000&pause=1000&color=6DB33F&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!+%E2%AD%90+Let's+build+something+great" alt="footer typing" />
-</p>
+## `⌬` COMMENDATIONS — EDUCATION · CERTS · COMMUNITY
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6DB33F,50:1f4e79,100:0e75b6&height=120&section=footer&animation=twinkling" width="100%" alt="footer" />
-</p>
+<table>
+<tr><td width="50%" valign="top">
+
+**🎓 Education**
+- **Degree, Major** — University · YYYY – YYYY
+
+**🏆 Honors & Awards**
+- Award — *Organization* (YYYY)
+
+</td><td width="50%" valign="top">
+
+**📜 Certifications & Languages**
+
+<img src="https://img.shields.io/badge/English-Level-6DB33F?style=flat-square&labelColor=0a0f14" alt="English" />
+
+</td></tr>
+</table>
+-->
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## `⌬` LIVE TELEMETRY — CONTRIBUTION SIGNAL
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Chuongpham2004&style=for-the-badge&color=6DB33F&label=SIGNAL+RECEPTIONS" alt="Profile Views" />
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chuongpham2004/Chuongpham2004/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chuongpham2004/Chuongpham2004/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Chuongpham2004/Chuongpham2004/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+```text
+[ TRANSMISSION END ] — Let's build scalable systems together.
+```
+
+<a href="https://github.com/Chuongpham2004"><img src="https://img.shields.io/badge/OPEN%20CHANNEL%20→%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f14" alt="GitHub" /></a>&nbsp;<a href="mailto:hoangchuong869@gmail.com"><img src="https://img.shields.io/badge/OPEN%20CHANNEL%20→%20Email-6DB33F?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0f14" alt="Email" /></a>
+
+</div>
